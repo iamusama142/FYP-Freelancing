@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0; 
+} 
+/*-----NAVIGATOR BAR-----*/
+
+#nav-bar
+{
+	position: sticky;
+	top :0;
+	z-index: 10;
+}
+.navbar-brand img{
+	height: 40px;
+	padding-left: 30px; 
+} 
+.navbar-nav li
+{
+	padding: 0 10px; 
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left; 
+}
+
+#nav-bar ul li a:hover{
+	color: rgb(138, 88, 185)!important;
+}
+.navbar{
+	background: white;
+
+}
+.navbar-toggler{
+	border: none!important;
+}
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+/*------Slider-----*/ 
+#slider
+{  
+font-family: Century Gothic;  
+	 width: 100%;          
+}
+ .carousel-caption
+{  
+  	 top: 20%; 
+  	transform: translateY(-50%);
+  	bottom: initial!important;
+}
+.carousel-caption h5{ 
+	color: #fff;
+	font-size: 60px;
+}
+ .button{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+  }
+  .btn:hover{
+    background-color: #007bff;
+    color: 10px black;
+  }
+/*------About-----*/ 
+#about{
+	padding: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn{
+   margin-top: 20px;
+   margin-bottom: 30px ;
+}
+.about-content{
+	padding-top: 20px;
+}
+.skills-bar{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius:  16px; 
+}
+.progress{
+	border-radius:  16px!important;
+	 margin-bottom: 20px;
+}
+ /*------Services-----*/ 
+ #services{
+ background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(backimage.jpg);
+ background-size: cover;
+  background-position: center;
+  color: #efefef!important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+} 
+#services h1{
+	text-align: center;
+	color:#efefef!important;
+	padding-bottom: 10px; 
+}
+#services h1::after
+{
+	content: '';
+	color:#007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.services{
+	margin-top: 40px;
+}
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+#services p
+{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+}
+.services .col-md-3:hover{
+	background-color: #007bff;
+	cursor: pointer;
+	transition: 0.7s;
+} 
+/*-----GET IN TOUCH----*/
+#contact{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form{
+	padding: 15px;
+}
+.form-control{
+	border-radius: 0!important;
+	border: none!important;
+} 
+::placeholder{
+	color: #999!important;
+}
+.follow{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa{
+ margin: 10px;
+ color: #007bff;
+ font-weight: bold;
+}
+/*-----Footer-----*/
+#footer{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+.fa-heart-o{
+	margin: 3px;
+	color: red;
+}
+
+
